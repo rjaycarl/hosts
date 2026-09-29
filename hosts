@@ -1,14 +1,25 @@
 # Torres Pi-hole Blocklist
+
 # Ads, trackers and telemetry
+
 # https://github.com/rjaycarl/pihole-blocklist
 
 # Amazon
+
 0.0.0.0 advertising-api-eu.amazon.com
 0.0.0.0 mads-eu.amazon.com
+0.0.0.0 adtago.s3.amazonaws.com
+0.0.0.0 analyticsengine.s3.amazonaws.com
+0.0.0.0 analytics.s3.amazonaws.com
+0.0.0.0 advice-ads.s3.amazonaws.com
 
 # Google Ads / DoubleClick
+
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 googlesyndication.com
+0.0.0.0 adservice.google.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 afs.googlesyndication.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googleads4.g.doubleclick.net
 0.0.0.0 ad.doubleclick.net
@@ -24,16 +35,33 @@
 0.0.0.0 doubleclick.net
 
 # Microsoft / Bing
+
 0.0.0.0 ads.microsoft.com
 0.0.0.0 c.bing.com
 
 # Yahoo / Yandex
+
 0.0.0.0 udcm.yahoo.com
 0.0.0.0 log.fc.yahoo.com
+0.0.0.0 ads.yahoo.com
+0.0.0.0 analytics.yahoo.com
+0.0.0.0 geo.yahoo.com
+0.0.0.0 analytics.query.yahoo.com
+0.0.0.0 partnerads.ysm.yahoo.com
+0.0.0.0 gemini.yahoo.com
+0.0.0.0 adtech.yahooinc.com
+
+# Yandex
+
 0.0.0.0 metrika.yandex.ru
 0.0.0.0 appmetrica.yandex.ru
+0.0.0.0 extmaps-api.yandex.net
+0.0.0.0 adfstat.yandex.ru
+0.0.0.0 offerwall.yandex.net
+0.0.0.0 adfox.yandex.ru
 
 # Advertising / Ad Tech
+
 0.0.0.0 liftoff.io
 0.0.0.0 ironsource.mobi
 0.0.0.0 pangleglobal.com
@@ -43,62 +71,156 @@
 0.0.0.0 cmp.inmobi.com
 0.0.0.0 cmp.osano.com
 
+# AdColony
+
+0.0.0.0 ads30.adcolony.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 events3alt.adcolony.com
+0.0.0.0 wd.adcolony.com
+
+# Media.net
+
+0.0.0.0 static.media.net
+0.0.0.0 media.net
+0.0.0.0 adservetx.media.net
+
+# Unity Ads
+
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 webview.unityads.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 adserver.unityads.unity3d.com
+
 # Google / YouTube Advertising & Infrastructure
+
 0.0.0.0 tagmanager.google.com
 0.0.0.0 dai.google.com
+0.0.0.0 ads.youtube.com
 
 # Facebook / Instagram / Meta
+
 0.0.0.0 graph.facebook.com
 0.0.0.0 connect.facebook.net
 0.0.0.0 ads.facebook.com
 0.0.0.0 tr.facebook.com
 0.0.0.0 graph.instagram.com
 0.0.0.0 i.instagram.com
+0.0.0.0 pixel.facebook.com
+0.0.0.0 an.facebook.com
 
 # X / Twitter
+
 0.0.0.0 ads-api.x.com
 0.0.0.0 analytics.twitter.com
 0.0.0.0 analytics.x.com
 0.0.0.0 ads.x.com
+0.0.0.0 static.ads-twitter.com
+0.0.0.0 ads-api.twitter.com
 
 # Reddit
+
 0.0.0.0 d.reddit.com
+0.0.0.0 events.reddit.com
+0.0.0.0 events.redditmedia.com
 
 # TikTok
+
 0.0.0.0 ads-sg.tiktok.com
 0.0.0.0 business-api.tiktok.com
+0.0.0.0 ads-api.tiktok.com
+0.0.0.0 analytics.tiktok.com
+0.0.0.0 analytics-sg.tiktok.com
+0.0.0.0 ads.tiktok.com
+0.0.0.0 log.byteoversea.com
 
 # Pinterest
+
 0.0.0.0 widgets.pinterest.com
+0.0.0.0 ads.pinterest.com
+0.0.0.0 log.pinterest.com
+0.0.0.0 trk.pinterest.com
 
 # Quora
+
 0.0.0.0 pixel.quora.com
 0.0.0.0 qevents.quora.com
 
 # VK
+
 0.0.0.0 ads.vk.com
 
 # LinkedIn
+
 0.0.0.0 snap.licdn.com
+0.0.0.0 ads.linkedin.com
+0.0.0.0 analytics.pointdrive.linkedin.com
 
 # Apple Advertising / Analytics
+
 0.0.0.0 advertising.apple.com
 0.0.0.0 api-adservices.apple.com
 0.0.0.0 books-analytics-events.apple.com
+0.0.0.0 iadsdk.apple.com
 
 # Huawei / Xiaomi / LG Telemetry
+
 0.0.0.0 grs.hicloud.com
 0.0.0.0 ads.huawei.com
 0.0.0.0 data.mistat.india.xiaomi.com
 0.0.0.0 data.mistat.rus.xiaomi.com
 0.0.0.0 ngfts.lge.com
 
+# Xiaomi Advertising
+
+0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 tracking.rus.miui.com
+
+# Realme Advertising / Telemetry
+
+0.0.0.0 iot-eu-logser.realme.com
+0.0.0.0 iot-logser.realme.com
+0.0.0.0 bdapi-ads.realmemobile.com
+0.0.0.0 bdapi-in-ads.realmemobile.com
+
+# Oppo Advertising
+
+0.0.0.0 adsfs.oppomobile.com
+0.0.0.0 adx.ads.oppomobile.com
+0.0.0.0 ck.ads.oppomobile.com
+0.0.0.0 data.ads.oppomobile.com
+
+# Huawei Advertising / Telemetry
+
+0.0.0.0 metrics.data.hicloud.com
+0.0.0.0 metrics2.data.hicloud.com
+0.0.0.0 logservice.hicloud.com
+0.0.0.0 logservice1.hicloud.com
+0.0.0.0 logbak.hicloud.com
+
+# OnePlus
+
+0.0.0.0 click.oneplus.cn
+0.0.0.0 open.oneplus.net
+
+# Samsung Advertising / Analytics
+
+0.0.0.0 samsungads.com
+0.0.0.0 smetrics.samsung.com
+0.0.0.0 nmetrics.samsung.com
+0.0.0.0 samsung-com.112.2o7.net
+0.0.0.0 analytics-api.samsunghealthcn.com
+
 # Microsoft Telemetry
+
 0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 vortex-win.data.microsoft.com
 0.0.0.0 browser.events.data.msn.com
 
 # Analytics / Product Telemetry
+
 0.0.0.0 app.posthog.com
 0.0.0.0 eu.posthog.com
 0.0.0.0 us.i.posthog.com
@@ -108,12 +230,14 @@
 0.0.0.0 app-measurement.com
 
 # Marketing / Communication Tracking
+
 0.0.0.0 click.mailchimp.com
 0.0.0.0 widget.intercom.io
 0.0.0.0 js.driftt.com
 0.0.0.0 api.onesignal.com
 
 # Privacy / Consent Platforms
+
 0.0.0.0 cdn.cookielaw.org
 0.0.0.0 geolocation.onetrust.com
 0.0.0.0 privacyportal.onetrust.com
@@ -126,9 +250,5 @@
 0.0.0.0 app.usercentrics.eu
 
 # Feature Flags / Configuration
-0.0.0.0 clientstream.launchdarkly.com
 
-# https://superadblocktest.com/
-0.0.0.0 s.youtube.com
-0.0.0.0 redirector.googlevideo.com
-0.0.0.0 xp.apple.com
+0.0.0.0 clientstream.launchdarkly.com
