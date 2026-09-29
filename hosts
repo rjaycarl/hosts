@@ -127,3 +127,8 @@
 
 # Feature Flags / Configuration
 0.0.0.0 clientstream.launchdarkly.com
+
+# https://superadblocktest.com/
+0.0.0.0 s.youtube.com
+0.0.0.0 redirector.googlevideo.com
+0.0.0.0 xp.apple.com
