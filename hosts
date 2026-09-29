@@ -1,0 +1,28 @@
+# Torres Pi-hole Blocklist
+# Ads, trackers and telemetry
+# https://github.com/rjaycarl/pihole-blocklist
+
+0.0.0.0 advertising-api-eu.amazon.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 static.doubleclick.net
+0.0.0.0 m.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
+
+0.0.0.0 ads.microsoft.com
+0.0.0.0 liftoff.io
+0.0.0.0 udcm.yahoo.com
+0.0.0.0 log.fc.yahoo.com
+
+# Analytics
+0.0.0.0 app.posthog.com
+0.0.0.0 eu.posthog.com
+0.0.0.0 us.i.posthog.com
+0.0.0.0 rudderstack.com
+0.0.0.0 snowplowanalytics.com
