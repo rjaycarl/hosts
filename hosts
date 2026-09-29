@@ -57,6 +57,7 @@
 
 # X / Twitter
 0.0.0.0 ads-api.x.com
+0.0.0.0 analytics.twitter.com
 0.0.0.0 analytics.x.com
 0.0.0.0 ads.x.com
 
@@ -64,6 +65,7 @@
 0.0.0.0 d.reddit.com
 
 # TikTok
+0.0.0.0 ads-sg.tiktok.com
 0.0.0.0 business-api.tiktok.com
 
 # Pinterest
@@ -112,6 +114,8 @@
 0.0.0.0 api.onesignal.com
 
 # Privacy / Consent Platforms
+0.0.0.0 cdn.cookielaw.org
+0.0.0.0 geolocation.onetrust.com
 0.0.0.0 privacyportal.onetrust.com
 0.0.0.0 consent.cookiebot.com
 0.0.0.0 consentcdn.cookiebot.com
